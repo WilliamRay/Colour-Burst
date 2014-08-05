@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6C6F5841991004800F1089B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C6F5831991004800F1089B /* Foundation.framework */; };
+		B6C6F5861991004800F1089B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C6F5851991004800F1089B /* CoreGraphics.framework */; };
+		B6C6F5881991004800F1089B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C6F5871991004800F1089B /* UIKit.framework */; };
+		B6C6F58A1991004800F1089B /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C6F5891991004800F1089B /* SpriteKit.framework */; };
+		B6C6F5901991004800F1089B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6C6F58E1991004800F1089B /* InfoPlist.strings */; };
+		B6C6F5921991004800F1089B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C6F5911991004800F1089B /* main.m */; };
+		B6C6F5961991004800F1089B /* XYZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C6F5951991004800F1089B /* XYZAppDelegate.m */; };
+		B6C6F5991991004800F1089B /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C6F5971991004800F1089B /* Main_iPhone.storyboard */; };
+		B6C6F59C1991004800F1089B /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C6F59A1991004800F1089B /* Main_iPad.storyboard */; };
+		B6C6F59F1991004800F1089B /* XYZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C6F59E1991004800F1089B /* XYZViewController.m */; };
+		B6C6F5A21991004800F1089B /* XYZMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C6F5A11991004800F1089B /* XYZMyScene.m */; };
+		B6C6F5A41991004800F1089B /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C6F5A31991004800F1089B /* Spaceship.png */; };
+		B6C6F5A61991004800F1089B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C6F5A51991004800F1089B /* Images.xcassets */; };
+		B6C6F5AD1991004800F1089B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C6F5AC1991004800F1089B /* XCTest.framework */; };
+		B6C6F5AE1991004800F1089B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C6F5831991004800F1089B /* Foundation.framework */; };
+		B6C6F5AF1991004800F1089B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C6F5871991004800F1089B /* UIKit.framework */; };
+		B6C6F5B71991004800F1089B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6C6F5B51991004800F1089B /* InfoPlist.strings */; };
+		B6C6F5B91991004800F1089B /* Color_BurstTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C6F5B81991004800F1089B /* Color_BurstTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6C6F5B01991004800F1089B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6C6F5781991004800F1089B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6C6F57F1991004800F1089B;
+			remoteInfo = "Color Burst";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B6C6F5801991004800F1089B /* Color Burst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Burst.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6C6F5831991004800F1089B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B6C6F5851991004800F1089B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B6C6F5871991004800F1089B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B6C6F5891991004800F1089B /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		B6C6F58D1991004800F1089B /* Color Burst-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Color Burst-Info.plist"; sourceTree = "<group>"; };
+		B6C6F58F1991004800F1089B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B6C6F5911991004800F1089B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6C6F5931991004800F1089B /* Color Burst-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Color Burst-Prefix.pch"; sourceTree = "<group>"; };
+		B6C6F5941991004800F1089B /* XYZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZAppDelegate.h; sourceTree = "<group>"; };
+		B6C6F5951991004800F1089B /* XYZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZAppDelegate.m; sourceTree = "<group>"; };
+		B6C6F5981991004800F1089B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		B6C6F59B1991004800F1089B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		B6C6F59D1991004800F1089B /* XYZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZViewController.h; sourceTree = "<group>"; };
+		B6C6F59E1991004800F1089B /* XYZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZViewController.m; sourceTree = "<group>"; };
+		B6C6F5A01991004800F1089B /* XYZMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZMyScene.h; sourceTree = "<group>"; };
+		B6C6F5A11991004800F1089B /* XYZMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZMyScene.m; sourceTree = "<group>"; };
+		B6C6F5A31991004800F1089B /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		B6C6F5A51991004800F1089B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B6C6F5AB1991004800F1089B /* Color BurstTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Color BurstTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6C6F5AC1991004800F1089B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B6C6F5B41991004800F1089B /* Color BurstTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Color BurstTests-Info.plist"; sourceTree = "<group>"; };
+		B6C6F5B61991004800F1089B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B6C6F5B81991004800F1089B /* Color_BurstTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Color_BurstTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6C6F57D1991004800F1089B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C6F5861991004800F1089B /* CoreGraphics.framework in Frameworks */,
+				B6C6F5881991004800F1089B /* UIKit.framework in Frameworks */,
+				B6C6F58A1991004800F1089B /* SpriteKit.framework in Frameworks */,
+				B6C6F5841991004800F1089B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C6F5A81991004800F1089B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C6F5AD1991004800F1089B /* XCTest.framework in Frameworks */,
+				B6C6F5AF1991004800F1089B /* UIKit.framework in Frameworks */,
+				B6C6F5AE1991004800F1089B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6C6F5771991004800F1089B = {
+			isa = PBXGroup;
+			children = (
+				B6C6F58B1991004800F1089B /* Color Burst */,
+				B6C6F5B21991004800F1089B /* Color BurstTests */,
+				B6C6F5821991004800F1089B /* Frameworks */,
+				B6C6F5811991004800F1089B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6C6F5811991004800F1089B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6C6F5801991004800F1089B /* Color Burst.app */,
+				B6C6F5AB1991004800F1089B /* Color BurstTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6C6F5821991004800F1089B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6C6F5831991004800F1089B /* Foundation.framework */,
+				B6C6F5851991004800F1089B /* CoreGraphics.framework */,
+				B6C6F5871991004800F1089B /* UIKit.framework */,
+				B6C6F5891991004800F1089B /* SpriteKit.framework */,
+				B6C6F5AC1991004800F1089B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6C6F58B1991004800F1089B /* Color Burst */ = {
+			isa = PBXGroup;
+			children = (
+				B6C6F5941991004800F1089B /* XYZAppDelegate.h */,
+				B6C6F5951991004800F1089B /* XYZAppDelegate.m */,
+				B6C6F5971991004800F1089B /* Main_iPhone.storyboard */,
+				B6C6F59A1991004800F1089B /* Main_iPad.storyboard */,
+				B6C6F59D1991004800F1089B /* XYZViewController.h */,
+				B6C6F59E1991004800F1089B /* XYZViewController.m */,
+				B6C6F5A01991004800F1089B /* XYZMyScene.h */,
+				B6C6F5A11991004800F1089B /* XYZMyScene.m */,
+				B6C6F5A31991004800F1089B /* Spaceship.png */,
+				B6C6F5A51991004800F1089B /* Images.xcassets */,
+				B6C6F58C1991004800F1089B /* Supporting Files */,
+			);
+			path = "Color Burst";
+			sourceTree = "<group>";
+		};
+		B6C6F58C1991004800F1089B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6C6F58D1991004800F1089B /* Color Burst-Info.plist */,
+				B6C6F58E1991004800F1089B /* InfoPlist.strings */,
+				B6C6F5911991004800F1089B /* main.m */,
+				B6C6F5931991004800F1089B /* Color Burst-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6C6F5B21991004800F1089B /* Color BurstTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6C6F5B81991004800F1089B /* Color_BurstTests.m */,
+				B6C6F5B31991004800F1089B /* Supporting Files */,
+			);
+			path = "Color BurstTests";
+			sourceTree = "<group>";
+		};
+		B6C6F5B31991004800F1089B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6C6F5B41991004800F1089B /* Color BurstTests-Info.plist */,
+				B6C6F5B51991004800F1089B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6C6F57F1991004800F1089B /* Color Burst */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6C6F5BC1991004800F1089B /* Build configuration list for PBXNativeTarget "Color Burst" */;
+			buildPhases = (
+				B6C6F57C1991004800F1089B /* Sources */,
+				B6C6F57D1991004800F1089B /* Frameworks */,
+				B6C6F57E1991004800F1089B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Color Burst";
+			productName = "Color Burst";
+			productReference = B6C6F5801991004800F1089B /* Color Burst.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6C6F5AA1991004800F1089B /* Color BurstTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6C6F5BF1991004800F1089B /* Build configuration list for PBXNativeTarget "Color BurstTests" */;
+			buildPhases = (
+				B6C6F5A71991004800F1089B /* Sources */,
+				B6C6F5A81991004800F1089B /* Frameworks */,
+				B6C6F5A91991004800F1089B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6C6F5B11991004800F1089B /* PBXTargetDependency */,
+			);
+			name = "Color BurstTests";
+			productName = "Color BurstTests";
+			productReference = B6C6F5AB1991004800F1089B /* Color BurstTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6C6F5781991004800F1089B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XYZ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Roger Ray";
+				TargetAttributes = {
+					B6C6F5AA1991004800F1089B = {
+						TestTargetID = B6C6F57F1991004800F1089B;
+					};
+				};
+			};
+			buildConfigurationList = B6C6F57B1991004800F1089B /* Build configuration list for PBXProject "Color Burst" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6C6F5771991004800F1089B;
+			productRefGroup = B6C6F5811991004800F1089B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6C6F57F1991004800F1089B /* Color Burst */,
+				B6C6F5AA1991004800F1089B /* Color BurstTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6C6F57E1991004800F1089B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C6F5A41991004800F1089B /* Spaceship.png in Resources */,
+				B6C6F5A61991004800F1089B /* Images.xcassets in Resources */,
+				B6C6F59C1991004800F1089B /* Main_iPad.storyboard in Resources */,
+				B6C6F5991991004800F1089B /* Main_iPhone.storyboard in Resources */,
+				B6C6F5901991004800F1089B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C6F5A91991004800F1089B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C6F5B71991004800F1089B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6C6F57C1991004800F1089B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C6F59F1991004800F1089B /* XYZViewController.m in Sources */,
+				B6C6F5961991004800F1089B /* XYZAppDelegate.m in Sources */,
+				B6C6F5A21991004800F1089B /* XYZMyScene.m in Sources */,
+				B6C6F5921991004800F1089B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C6F5A71991004800F1089B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C6F5B91991004800F1089B /* Color_BurstTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6C6F5B11991004800F1089B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6C6F57F1991004800F1089B /* Color Burst */;
+			targetProxy = B6C6F5B01991004800F1089B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6C6F58E1991004800F1089B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6C6F58F1991004800F1089B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B6C6F5971991004800F1089B /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6C6F5981991004800F1089B /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B6C6F59A1991004800F1089B /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6C6F59B1991004800F1089B /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B6C6F5B51991004800F1089B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6C6F5B61991004800F1089B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6C6F5BA1991004800F1089B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6C6F5BB1991004800F1089B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6C6F5BD1991004800F1089B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Color Burst/Color Burst-Prefix.pch";
+				INFOPLIST_FILE = "Color Burst/Color Burst-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B6C6F5BE1991004800F1089B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Color Burst/Color Burst-Prefix.pch";
+				INFOPLIST_FILE = "Color Burst/Color Burst-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B6C6F5C01991004800F1089B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Color Burst.app/Color Burst";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Color Burst/Color Burst-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Color BurstTests/Color BurstTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B6C6F5C11991004800F1089B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Color Burst.app/Color Burst";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Color Burst/Color Burst-Prefix.pch";
+				INFOPLIST_FILE = "Color BurstTests/Color BurstTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6C6F57B1991004800F1089B /* Build configuration list for PBXProject "Color Burst" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C6F5BA1991004800F1089B /* Debug */,
+				B6C6F5BB1991004800F1089B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6C6F5BC1991004800F1089B /* Build configuration list for PBXNativeTarget "Color Burst" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C6F5BD1991004800F1089B /* Debug */,
+				B6C6F5BE1991004800F1089B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B6C6F5BF1991004800F1089B /* Build configuration list for PBXNativeTarget "Color BurstTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C6F5C01991004800F1089B /* Debug */,
+				B6C6F5C11991004800F1089B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6C6F5781991004800F1089B /* Project object */;
+}
