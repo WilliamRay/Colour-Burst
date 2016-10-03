@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6234A2119F187E000462F5F /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6234A2019F187E000462F5F /* GameKit.framework */; };
 		B6C6F5841991004800F1089B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C6F5831991004800F1089B /* Foundation.framework */; };
 		B6C6F5861991004800F1089B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C6F5851991004800F1089B /* CoreGraphics.framework */; };
 		B6C6F5881991004800F1089B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C6F5871991004800F1089B /* UIKit.framework */; };
@@ -17,14 +18,19 @@
 		B6C6F5991991004800F1089B /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C6F5971991004800F1089B /* Main_iPhone.storyboard */; };
 		B6C6F59C1991004800F1089B /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C6F59A1991004800F1089B /* Main_iPad.storyboard */; };
 		B6C6F59F1991004800F1089B /* XYZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C6F59E1991004800F1089B /* XYZViewController.m */; };
-		B6C6F5A21991004800F1089B /* XYZMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C6F5A11991004800F1089B /* XYZMyScene.m */; };
-		B6C6F5A41991004800F1089B /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C6F5A31991004800F1089B /* Spaceship.png */; };
+		B6C6F5A21991004800F1089B /* XYZMainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C6F5A11991004800F1089B /* XYZMainScene.m */; };
 		B6C6F5A61991004800F1089B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C6F5A51991004800F1089B /* Images.xcassets */; };
 		B6C6F5AD1991004800F1089B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C6F5AC1991004800F1089B /* XCTest.framework */; };
 		B6C6F5AE1991004800F1089B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C6F5831991004800F1089B /* Foundation.framework */; };
 		B6C6F5AF1991004800F1089B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C6F5871991004800F1089B /* UIKit.framework */; };
 		B6C6F5B71991004800F1089B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6C6F5B51991004800F1089B /* InfoPlist.strings */; };
 		B6C6F5B91991004800F1089B /* Color_BurstTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C6F5B81991004800F1089B /* Color_BurstTests.m */; };
+		B6C6F5C71991025F00F1089B /* XYZArcadeScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C6F5C61991025F00F1089B /* XYZArcadeScene.m */; };
+		B6C6F5CA199102C400F1089B /* XYZRelayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C6F5C9199102C400F1089B /* XYZRelayScene.m */; };
+		B6C6F5CD199102D000F1089B /* XYZReactionScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C6F5CC199102D000F1089B /* XYZReactionScene.m */; };
+		B6C6F5D01991034A00F1089B /* XYZInstructionScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C6F5CF1991034A00F1089B /* XYZInstructionScene.m */; };
+		B6C6F5D31991039900F1089B /* XYZGameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C6F5D21991039900F1089B /* XYZGameOverScene.m */; };
+		B6C6F5DF19910FF000F1089B /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C6F5C2199100B600F1089B /* iAd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B6C6F5801991004800F1089B /* Color Burst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Burst.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6234A2019F187E000462F5F /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		B6C6F5801991004800F1089B /* Colour Burst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Colour Burst.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6C6F5831991004800F1089B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B6C6F5851991004800F1089B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		B6C6F5871991004800F1089B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -53,15 +60,26 @@
 		B6C6F59B1991004800F1089B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		B6C6F59D1991004800F1089B /* XYZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZViewController.h; sourceTree = "<group>"; };
 		B6C6F59E1991004800F1089B /* XYZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZViewController.m; sourceTree = "<group>"; };
-		B6C6F5A01991004800F1089B /* XYZMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZMyScene.h; sourceTree = "<group>"; };
-		B6C6F5A11991004800F1089B /* XYZMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZMyScene.m; sourceTree = "<group>"; };
-		B6C6F5A31991004800F1089B /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		B6C6F5A01991004800F1089B /* XYZMainScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZMainScene.h; sourceTree = "<group>"; };
+		B6C6F5A11991004800F1089B /* XYZMainScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZMainScene.m; sourceTree = "<group>"; };
 		B6C6F5A51991004800F1089B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B6C6F5AB1991004800F1089B /* Color BurstTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Color BurstTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6C6F5AB1991004800F1089B /* Colour BurstTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Colour BurstTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6C6F5AC1991004800F1089B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B6C6F5B41991004800F1089B /* Color BurstTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Color BurstTests-Info.plist"; sourceTree = "<group>"; };
 		B6C6F5B61991004800F1089B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B6C6F5B81991004800F1089B /* Color_BurstTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Color_BurstTests.m; sourceTree = "<group>"; };
+		B6C6F5C2199100B600F1089B /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		B6C6F5C51991025F00F1089B /* XYZArcadeScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZArcadeScene.h; sourceTree = "<group>"; };
+		B6C6F5C61991025F00F1089B /* XYZArcadeScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZArcadeScene.m; sourceTree = "<group>"; };
+		B6C6F5C8199102C400F1089B /* XYZRelayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZRelayScene.h; sourceTree = "<group>"; };
+		B6C6F5C9199102C400F1089B /* XYZRelayScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZRelayScene.m; sourceTree = "<group>"; };
+		B6C6F5CB199102D000F1089B /* XYZReactionScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZReactionScene.h; sourceTree = "<group>"; };
+		B6C6F5CC199102D000F1089B /* XYZReactionScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZReactionScene.m; sourceTree = "<group>"; };
+		B6C6F5CE1991034A00F1089B /* XYZInstructionScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZInstructionScene.h; sourceTree = "<group>"; };
+		B6C6F5CF1991034A00F1089B /* XYZInstructionScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZInstructionScene.m; sourceTree = "<group>"; };
+		B6C6F5D11991039900F1089B /* XYZGameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZGameOverScene.h; sourceTree = "<group>"; };
+		B6C6F5D21991039900F1089B /* XYZGameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZGameOverScene.m; sourceTree = "<group>"; };
+		B6C6F5DA199106DC00F1089B /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,8 +87,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6C6F5DF19910FF000F1089B /* iAd.framework in Frameworks */,
 				B6C6F5861991004800F1089B /* CoreGraphics.framework in Frameworks */,
 				B6C6F5881991004800F1089B /* UIKit.framework in Frameworks */,
+				B6234A2119F187E000462F5F /* GameKit.framework in Frameworks */,
 				B6C6F58A1991004800F1089B /* SpriteKit.framework in Frameworks */,
 				B6C6F5841991004800F1089B /* Foundation.framework in Frameworks */,
 			);
@@ -102,8 +122,8 @@
 		B6C6F5811991004800F1089B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B6C6F5801991004800F1089B /* Color Burst.app */,
-				B6C6F5AB1991004800F1089B /* Color BurstTests.xctest */,
+				B6C6F5801991004800F1089B /* Colour Burst.app */,
+				B6C6F5AB1991004800F1089B /* Colour BurstTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,6 +131,9 @@
 		B6C6F5821991004800F1089B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B6234A2019F187E000462F5F /* GameKit.framework */,
+				B6C6F5DA199106DC00F1089B /* AdSupport.framework */,
+				B6C6F5C2199100B600F1089B /* iAd.framework */,
 				B6C6F5831991004800F1089B /* Foundation.framework */,
 				B6C6F5851991004800F1089B /* CoreGraphics.framework */,
 				B6C6F5871991004800F1089B /* UIKit.framework */,
@@ -129,9 +152,7 @@
 				B6C6F59A1991004800F1089B /* Main_iPad.storyboard */,
 				B6C6F59D1991004800F1089B /* XYZViewController.h */,
 				B6C6F59E1991004800F1089B /* XYZViewController.m */,
-				B6C6F5A01991004800F1089B /* XYZMyScene.h */,
-				B6C6F5A11991004800F1089B /* XYZMyScene.m */,
-				B6C6F5A31991004800F1089B /* Spaceship.png */,
+				B6C6F5C4199100D100F1089B /* Scenes */,
 				B6C6F5A51991004800F1089B /* Images.xcassets */,
 				B6C6F58C1991004800F1089B /* Supporting Files */,
 			);
@@ -167,12 +188,31 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B6C6F5C4199100D100F1089B /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				B6C6F5A01991004800F1089B /* XYZMainScene.h */,
+				B6C6F5A11991004800F1089B /* XYZMainScene.m */,
+				B6C6F5C51991025F00F1089B /* XYZArcadeScene.h */,
+				B6C6F5C61991025F00F1089B /* XYZArcadeScene.m */,
+				B6C6F5C8199102C400F1089B /* XYZRelayScene.h */,
+				B6C6F5C9199102C400F1089B /* XYZRelayScene.m */,
+				B6C6F5CB199102D000F1089B /* XYZReactionScene.h */,
+				B6C6F5CC199102D000F1089B /* XYZReactionScene.m */,
+				B6C6F5CE1991034A00F1089B /* XYZInstructionScene.h */,
+				B6C6F5CF1991034A00F1089B /* XYZInstructionScene.m */,
+				B6C6F5D11991039900F1089B /* XYZGameOverScene.h */,
+				B6C6F5D21991039900F1089B /* XYZGameOverScene.m */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B6C6F57F1991004800F1089B /* Color Burst */ = {
+		B6C6F57F1991004800F1089B /* Colour Burst */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B6C6F5BC1991004800F1089B /* Build configuration list for PBXNativeTarget "Color Burst" */;
+			buildConfigurationList = B6C6F5BC1991004800F1089B /* Build configuration list for PBXNativeTarget "Colour Burst" */;
 			buildPhases = (
 				B6C6F57C1991004800F1089B /* Sources */,
 				B6C6F57D1991004800F1089B /* Frameworks */,
@@ -182,14 +222,14 @@
 			);
 			dependencies = (
 			);
-			name = "Color Burst";
+			name = "Colour Burst";
 			productName = "Color Burst";
-			productReference = B6C6F5801991004800F1089B /* Color Burst.app */;
+			productReference = B6C6F5801991004800F1089B /* Colour Burst.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B6C6F5AA1991004800F1089B /* Color BurstTests */ = {
+		B6C6F5AA1991004800F1089B /* Colour BurstTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B6C6F5BF1991004800F1089B /* Build configuration list for PBXNativeTarget "Color BurstTests" */;
+			buildConfigurationList = B6C6F5BF1991004800F1089B /* Build configuration list for PBXNativeTarget "Colour BurstTests" */;
 			buildPhases = (
 				B6C6F5A71991004800F1089B /* Sources */,
 				B6C6F5A81991004800F1089B /* Frameworks */,
@@ -200,9 +240,9 @@
 			dependencies = (
 				B6C6F5B11991004800F1089B /* PBXTargetDependency */,
 			);
-			name = "Color BurstTests";
+			name = "Colour BurstTests";
 			productName = "Color BurstTests";
-			productReference = B6C6F5AB1991004800F1089B /* Color BurstTests.xctest */;
+			productReference = B6C6F5AB1991004800F1089B /* Colour BurstTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -215,6 +255,14 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Roger Ray";
 				TargetAttributes = {
+					B6C6F57F1991004800F1089B = {
+						DevelopmentTeam = 65B7RMWPL4;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+						};
+					};
 					B6C6F5AA1991004800F1089B = {
 						TestTargetID = B6C6F57F1991004800F1089B;
 					};
@@ -233,8 +281,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B6C6F57F1991004800F1089B /* Color Burst */,
-				B6C6F5AA1991004800F1089B /* Color BurstTests */,
+				B6C6F57F1991004800F1089B /* Colour Burst */,
+				B6C6F5AA1991004800F1089B /* Colour BurstTests */,
 			);
 		};
 /* End PBXProject section */
@@ -244,7 +292,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6C6F5A41991004800F1089B /* Spaceship.png in Resources */,
 				B6C6F5A61991004800F1089B /* Images.xcassets in Resources */,
 				B6C6F59C1991004800F1089B /* Main_iPad.storyboard in Resources */,
 				B6C6F5991991004800F1089B /* Main_iPhone.storyboard in Resources */,
@@ -267,10 +314,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6C6F5CA199102C400F1089B /* XYZRelayScene.m in Sources */,
 				B6C6F59F1991004800F1089B /* XYZViewController.m in Sources */,
 				B6C6F5961991004800F1089B /* XYZAppDelegate.m in Sources */,
-				B6C6F5A21991004800F1089B /* XYZMyScene.m in Sources */,
+				B6C6F5D31991039900F1089B /* XYZGameOverScene.m in Sources */,
+				B6C6F5D01991034A00F1089B /* XYZInstructionScene.m in Sources */,
+				B6C6F5A21991004800F1089B /* XYZMainScene.m in Sources */,
 				B6C6F5921991004800F1089B /* main.m in Sources */,
+				B6C6F5C71991025F00F1089B /* XYZArcadeScene.m in Sources */,
+				B6C6F5CD199102D000F1089B /* XYZReactionScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +339,7 @@
 /* Begin PBXTargetDependency section */
 		B6C6F5B11991004800F1089B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B6C6F57F1991004800F1089B /* Color Burst */;
+			target = B6C6F57F1991004800F1089B /* Colour Burst */;
 			targetProxy = B6C6F5B01991004800F1089B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -360,8 +412,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Colour Burst";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -393,7 +446,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Colour Burst";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -405,10 +460,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Color Burst/Color Burst-Prefix.pch";
 				INFOPLIST_FILE = "Color Burst/Color Burst-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -419,10 +479,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Color Burst/Color Burst-Prefix.pch";
 				INFOPLIST_FILE = "Color Burst/Color Burst-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -480,21 +545,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B6C6F5BC1991004800F1089B /* Build configuration list for PBXNativeTarget "Color Burst" */ = {
+		B6C6F5BC1991004800F1089B /* Build configuration list for PBXNativeTarget "Colour Burst" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B6C6F5BD1991004800F1089B /* Debug */,
 				B6C6F5BE1991004800F1089B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		B6C6F5BF1991004800F1089B /* Build configuration list for PBXNativeTarget "Color BurstTests" */ = {
+		B6C6F5BF1991004800F1089B /* Build configuration list for PBXNativeTarget "Colour BurstTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B6C6F5C01991004800F1089B /* Debug */,
 				B6C6F5C11991004800F1089B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

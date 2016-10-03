@@ -1,5 +1,5 @@
 //
-//  XYZMyScene.h
+//  XYZMainScene.h
 //  Color Burst
 //
 
@@ -8,6 +8,6 @@
 
 #import <SpriteKit/SpriteKit.h>
 
-@interface XYZMyScene : SKScene
+@interface XYZMainScene : SKScene
 
 @end

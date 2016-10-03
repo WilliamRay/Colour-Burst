@@ -8,7 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import <SpriteKit/SpriteKit.h>
+#import <iAd/iAd.h>
+#import <GameKit/GameKit.h>
 
-@interface XYZViewController : UIViewController
+@interface XYZViewController : UIViewController <GKGameCenterControllerDelegate>
+
+-(BOOL)isGameCenterEnabled;
 
 @end
+
+
